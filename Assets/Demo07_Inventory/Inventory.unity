@@ -77,15 +77,18 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFiltering: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousColorSigma: 1
-    m_PVRFilteringAtrousNormalSigma: 1
-    m_PVRFilteringAtrousPositionSigma: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -107,6 +110,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1 &247437603
 GameObject:
@@ -381,32 +386,32 @@ Prefab:
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 70.99
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -36.45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 141.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000654031214382, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 72.9
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80ae2bd9cc0dc444dbc89ce437eb5c5f, type: 2}
@@ -482,11 +487,11 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!4 &1582818063
 Transform:
   m_ObjectHideFlags: 0
@@ -756,32 +761,32 @@ Prefab:
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 70.99
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -36.45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 141.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224635112760639206, guid: 2f838aab7e19bbd41b8fc3696c51738f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 72.9
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f838aab7e19bbd41b8fc3696c51738f, type: 2}
