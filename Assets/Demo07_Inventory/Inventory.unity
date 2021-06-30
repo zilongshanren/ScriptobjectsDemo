@@ -658,6 +658,16 @@ Prefab:
       propertyPath: m_Name
       value: Hat
       objectReference: {fileID: 0}
+    - target: {fileID: 114336072261138998, guid: 70df0914c0d0b7e4b935c4635b5bf62c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: RoboRyanTron.Unite2017.Inventory.InventoryItem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114648997669452314, guid: 70df0914c0d0b7e4b935c4635b5bf62c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: RoboRyanTron.Unite2017.Inventory.InventoryItem, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70df0914c0d0b7e4b935c4635b5bf62c, type: 2}
   m_IsPrefabParent: 0
